@@ -3,9 +3,9 @@ const getCSS = (variavel) => {
 }
 
 const tickConfig = {
-    color: getCSS('--primary-color'),
-    size: 16,
-    family: getCSS('--font')
+    color: getCSS('--bg-color'),
+    size: 10,
+    family: getCSS('--font'),
 }
 
 export {getCSS, tickConfig}
